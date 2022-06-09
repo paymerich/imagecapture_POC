@@ -1,0 +1,13 @@
+{
+  "name": "imagecapture_poc",
+  "description": "[Image Capture demo](http://simpl.info/imagecapture/)",
+  "version": "1.0.0",
+  "main": "service-worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "http-server -p 1337 build -c-1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
