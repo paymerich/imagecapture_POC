@@ -151,6 +151,7 @@ function takePhoto() {
       console.log("Took photo:", blob);
       img.classList.remove("hidden");
       img.src = URL.createObjectURL(blob);
+      localStorage.setItem("recent-Photo", img.src);
     })
     .catch(function (error) {
       console.log("takePhoto() error: ", error);
